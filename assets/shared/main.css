@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Sh1zofont';
+    src: url(../shared/Sh1zofont.otf)
+}
+@font-face {
+    font-family: 'FeatureMono';
+    src: url(../shared/FeatureMono.ttf)
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    scrollbar-color: #00FFFF #002222;
+}
+::-webkit-scrollbar-track {background: #002222}
+::-webkit-scrollbar-thumb {background-color: #00FFFF}
+#backgroundCanvas {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    display: block;
+}
+body {
+    display: flex;
+    margin: 0 auto;
+    gap: 1vw;
+}
+
+
+
+aside {
+    flex: max(5vw, 250px);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 20px 20px 0;
+    background: #00606080;
+    backdrop-filter: blur(20px);
+
+}
+aside header img {
+    margin: 1vw;
+    image-rendering: pixelated;
+    width: 13vw;
+}
+aside main {flex-grow: 1}
+aside footer {
+    font-family: FeatureMono, system-ui;
+    color: #009C9C;
+    margin: 1vw;
+}
+aside footer nav {
+    display: flex;
+    justify-content: center;
+    gap: 0.5vw;
+}
+aside footer a img {
+    display: inline;
+    width: 1.75vw;
+    height: auto;
+    filter: brightness(0.611);
+}
+aside footer p {
+    text-align: center;
+}
+aside footer a img:hover {filter: brightness(1)}
+
+
+
+article {
+    flex: 85vw;
+    font-family: Sh1zofont, system-ui;
+    color: #FFFFFF;
+}
