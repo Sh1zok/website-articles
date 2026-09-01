@@ -33,7 +33,6 @@ body {
     gap: 1vw;
 }
 .divider {
-    width: 75vw;
     height: 2px;
     background: #9C9C9C;
     margin: max(2.5vh, 2.5vw) 5vw max(2.5vh, 2.5vw) 5vw;
@@ -42,7 +41,7 @@ body {
 
 
 aside {
-    flex: min(15vw, 28.28vh);
+    width: max(15vw, 30vh);
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -52,9 +51,9 @@ aside {
 
 }
 aside header img {
-    margin: 1vw;
+    margin: max(1vw, 2vh);
     image-rendering: pixelated;
-    width: 13vw;
+    width: max(13vw, 26vh);
 }
 aside main {flex-grow: 1}
 aside footer {
@@ -65,23 +64,24 @@ aside footer {
 aside footer nav {
     display: flex;
     justify-content: center;
-    gap: 0.5vw;
+    gap: max(0.5vw, 1vh);
 }
 aside footer a img {
     display: inline;
-    width: 1.75vw;
+    width: max(1.75vw, 3.5vh);
     height: auto;
     filter: brightness(0.611);
 }
 aside footer p {
     text-align: center;
+    font-size: max(0.75vw, 1.5vh);
 }
 aside footer a img:hover {filter: brightness(1)}
 
 
 
 article {
-    flex: max(85vw, 160.23vh);
+    flex-grow: 1;
 }
 article header {
     font-family: Sh1zofont, system-ui;
