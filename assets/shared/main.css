@@ -35,7 +35,7 @@ body {
 .divider {
     height: 2px;
     background: #9C9C9C;
-    margin: max(2.5vh, 2.5vw) 5vw max(2.5vh, 2.5vw) 5vw;
+    margin: 1vh 2.5vw 1vh 2.5vw;
 }
 
 
@@ -80,9 +80,7 @@ aside footer a img:hover {filter: brightness(1)}
 
 
 
-article {
-    flex-grow: 1;
-}
+article {flex-grow: 1}
 article header {
     font-family: Sh1zofont, system-ui;
     color: #FFFFFF;
@@ -92,7 +90,8 @@ article header sup {
     font-family: FeatureMono, system-ui;
     color: #FFFFFF88;
 }
-article div {
+#content {
     font-family: FeatureMono, system-ui;
     color: #FFFFFF;
+    margin: 0 5vw 0 5vw;
 }
