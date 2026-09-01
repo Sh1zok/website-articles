@@ -32,6 +32,12 @@ body {
     margin: 0 auto;
     gap: 1vw;
 }
+.divider {
+    width: 64vw;
+    height: 2px;
+    background: #4C4C4C;
+    margin: 0 18vw max(2.5vh, 2.5vw) 18vw;
+}
 
 
 
