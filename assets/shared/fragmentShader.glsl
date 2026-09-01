@@ -1,5 +1,5 @@
-#define gridSizeMultiplier 1.0
-#define mutationSpeedMultiplier 0.025
+#define gridSizeMultiplier 10.0
+#define mutationSpeedMultiplier 0.2
 #define brightnessMultiplier 0.2
 #define viewportVelocityX 0.1
 #define viewportVelocityY 0.04

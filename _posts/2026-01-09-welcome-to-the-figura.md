@@ -5,5 +5,5 @@ description: "Статья о мягком знакомстве с Figura - мо
 tags: [figura, minecraft, java]
 ---
 
-Will be soon! /ᐠ｡ꞈ｡ᐟ\
+Will be soon! /ᐠ｡ꞈ｡ᐟ\\
 \- Sh1zok
