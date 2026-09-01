@@ -7,8 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="icon" type="image/png" href="/assets/shared/favicon.png">
-    <title>{{ page.title }} / Sh1zok's Articles</title>
+    <title>{{ page.title }}</title>
     <meta name="description" content="{{ page.description }}">
+
+    {% for tag in page.tags %}
+    <meta property="article:tag" content="{{ tag }}">
+    {% endfor %}
 
     <link rel="stylesheet" href="/assets/shared/main.css">
     <script type="module" src="/assets/shared/main.js"></script>
@@ -19,7 +23,7 @@
 
     <aside>
         <header>
-            <a href="https://sh1zok.site"><img src="/assets/shared/nameplate.png" alt="Sh1zok's Articles" id="nameplate"></a>
+            <a href="https://sh1zok.site"><img src="/assets/shared/nameplate.png" alt="Sh1zok's Site" id="nameplate"></a>
         </header>
         <main></main>
         <footer>
@@ -38,7 +42,9 @@
     <article>
         <header>
             <h1>{{ page.title }}</h1>
-            <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d.%m.%Y" }}</time>
+            {% for tag in page.tags %}
+            <span class="tag-item">######{{ tag }}</span>
+            {% endfor %}
         </header>
         <div>{{ content }}</div>
     </article>
