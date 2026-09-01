@@ -33,7 +33,7 @@ body {
     gap: 1vw;
 }
 .divider {
-    width: 80vw;
+    width: 65vw;
     height: 2px;
     background: #9C9C9C;
     margin: 0 10vw max(2.5vh, 2.5vw) 10vw;
