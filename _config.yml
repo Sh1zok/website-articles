@@ -1,0 +1,22 @@
+title: "Sh1zok's Articles"
+description: "Субдомен сайта Sh1zok для статей."
+author_name: "Sh1zok"
+url: "https://articles.sh1zok.site"
+
+permalink: /:title/
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - .github/
+  - README.md
