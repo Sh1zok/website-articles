@@ -43,7 +43,7 @@
         <header>
             <h1>{{ page.title }}</h1>
             {% for tag in page.tags %}
-            <span class="tag-item">######{{ tag }}</span>
+            <sup>{{ tag }}</sup>
             {% endfor %}
         </header>
         <div>{{ content }}</div>

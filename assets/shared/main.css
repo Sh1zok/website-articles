@@ -76,6 +76,8 @@ aside footer a img:hover {filter: brightness(1)}
 
 article {
     flex: 85vw;
-    font-family: Sh1zofont, system-ui;
+    font-family: FeatureMono, system-ui;
     color: #FFFFFF;
 }
+article header {font-family: Sh1zofont, system-ui}
+article header sup {color: #FFFFFF88}
