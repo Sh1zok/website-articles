@@ -33,16 +33,16 @@ body {
     gap: 1vw;
 }
 .divider {
-    width: 65vw;
+    width: 75vw;
     height: 2px;
     background: #9C9C9C;
-    margin: 0 10vw max(2.5vh, 2.5vw) 10vw;
+    margin: max(2.5vh, 2.5vw) 5vw max(2.5vh, 2.5vw) 5vw;
 }
 
 
 
 aside {
-    flex: max(5vw, 250px);
+    flex: min(15vw, 28.28vh);
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -81,11 +81,12 @@ aside footer a img:hover {filter: brightness(1)}
 
 
 article {
-    flex: 85vw;
+    flex: max(85vw, 160.23vh);
 }
 article header {
     font-family: Sh1zofont, system-ui;
     color: #FFFFFF;
+    margin: 0 10vw 0 10vw;
 }
 article header sup {
     font-family: FeatureMono, system-ui;
